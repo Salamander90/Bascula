@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Menu.master" AutoEventWireup="false" CodeFile="Consulta de Usuarios.aspx.vb" Inherits="Consulta_de_Usuarios" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Menu.master" AutoEventWireup="true" CodeFile="Consulta de Areas.aspx.cs" Inherits="Forms_Mantenimientos_Consulta_de_Areas" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
