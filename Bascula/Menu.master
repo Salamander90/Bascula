@@ -18,20 +18,20 @@
                 <!-- Sidebar Holder -->
                 <nav id="sidebar">
                     <div class="sidebar-header">
-                        <h3>Menu</h3>
-                        <strong>BS</strong>
+                        <h3><b>Menu</b></h3>
+                        <strong>Menu</strong>
                     </div>
 
                     <ul class="list-unstyled components">
                         <li class="active">
                             <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">
                                 <i class="glyphicon glyphicon-home"></i>
-                                Home
+                                Dashboard
                             </a>
                             <ul class="collapse list-unstyled" id="homeSubmenu">
-                                <li><a href="#">Home 1</a></li>
-                                <li><a href="#">Home 2</a></li>
-                                <li><a href="#">Home 3</a></li>
+                                <li><a href="#">Reporte 1</a></li>
+                                <li><a href="#">Reporte 2</a></li>
+                                <li><a href="#">Reporte 3</a></li>
                             </ul>
                         </li>
                         <li>
@@ -59,6 +59,17 @@
                                 <i class="glyphicon glyphicon-link"></i>
                                 Portfolio
                             </a>
+                        </li>
+                           <li class="active">
+                            <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false">
+                                <i class="glyphicon glyphicon-home"></i>
+                                Dashboard
+                            </a>
+                            <ul class="collapse list-unstyled" id="homeSubmenu2">
+                                <li><a href="#">Reporte 1</a></li>
+                                <li><a href="#">Reporte 2</a></li>
+                                <li><a href="#">Reporte 3</a></li>
+                            </ul>
                         </li>
                         <li>
                             <a href="#">
