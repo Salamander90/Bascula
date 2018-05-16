@@ -8,6 +8,7 @@
     <title></title>
     <link href="Content/Menus.css" rel="stylesheet" />
     <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -23,13 +24,19 @@
                     </div>
 
                     <ul class="list-unstyled components">
-                        <li class="active">
-                            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">
-                                <i class="glyphicon glyphicon-home"></i>
+                           <li>
+                            <a href="#">
+                                <i class="glyphicon glyphicon-th-large"></i>
                                 Dashboard
                             </a>
+                        </li>
+                        <li class="active">
+                            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">
+                                <i class="fa fa-truck"></i>
+                                Transportistas
+                            </a>
                             <ul class="collapse list-unstyled" id="homeSubmenu">
-                                <li><a href="#">Reporte 1</a></li>
+                                <li><a href="#"><i class="glyphicon glyphicon-list"></i>Reporte 1</a></li>
                                 <li><a href="#">Reporte 2</a></li>
                                 <li><a href="#">Reporte 3</a></li>
                             </ul>
@@ -53,21 +60,15 @@
                                 <li><a href="UsuariosForm.aspx">Usuarios</a></li>
                                 <li><a href="RolesForm.aspx">Roles</a></li>
                             </ul>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="glyphicon glyphicon-link"></i>
-                                Portfolio
-                            </a>
-                        </li>
+                        </li>                     
                            <li class="active">
                             <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false">
                                 <i class="glyphicon glyphicon-home"></i>
                                 Dashboard
                             </a>
-                            <ul class="collapse list-unstyled" id="homeSubmenu2">
-                                <li><a href="#">Reporte 1</a></li>
-                                <li><a href="#">Reporte 2</a></li>
+                            <ul class="collapse list-unstyled" id="homeSubmenu2" onclick="myFuntion()">
+                                <li id="1" onclick="myFuntion()"><a href="#">Reporte 1 </a> </li>
+                                <li><a href="#" id="repo" runat="server">Reporte 2</a></li>
                                 <li><a href="#">Reporte 3</a></li>
                             </ul>
                         </li>
@@ -100,16 +101,7 @@
                                 <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
                                     <i class="glyphicon glyphicon-align-left"></i>
                                     <span></span>
-                                </button>
-                            </div>
-
-                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <%--                            <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#">Page</a></li>
-                                <li><a href="#">Page</a></li>
-                                <li><a href="#">Page</a></li>
-                                <li><a href="#">Page</a></li>
-                            </ul>--%>
+                                </button>                                
                             </div>
                         </div>
                     </nav>
